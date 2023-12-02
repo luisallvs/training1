@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
+
+* {
+  font-family: "Hanken Grotesk", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+html {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+body {
+  background-color: hsl(0, 0%, 100%);
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 15px 90px 2px hsla(241, 72%, 46%, 0.1);
+  margin-bottom: 40px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 30px;
+}
+
+.card1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 20rem;
+  padding: 2rem 2rem 3rem 2rem;
+  border-radius: 30px;
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  text-align: center;
+}
+
+.result-number {
+  color: hsl(0, 0%, 100%);
+}
+
+.card1 h3,
+.card1 p {
+  color: hsl(241, 100%, 89%);
+}
+
+.card1 h3,
+.card2 h3 {
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+.card1 .section-title {
+  margin-bottom: 40px;
+}
+.result-rank {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.results {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+.result-number {
+  font-size: 6rem;
+}
+
+.results p {
+  font-size: 1.2rem;
+}
+
+.card1 p {
+  width: 70%;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.card2 {
+  display: flex;
+  flex-direction: column;
+  width: 19rem;
+  padding: 2rem 3rem 3rem 3rem;
+  background-color: hsl(0, 0%, 100%);
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.card2 h3 {
+  color: hsl(224, 30%, 27%);
+  margin-bottom: 40px;
+}
+
+.summary-data {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+
+.reaction {
+  font-weight: 800;
+  color: hsla(0, 100%, 67%, 0.8);
+  background-color: hsla(0, 100%, 67%, 0.05);
+}
+.memory {
+  font-weight: 800;
+  color: hsla(39, 100%, 56%, 0.8);
+  background-color: hsla(39, 100%, 56%, 0.05);
+}
+.verbal {
+  font-weight: 800;
+  color: hsla(166, 100%, 37%, 0.8);
+  background-color: hsla(166, 100%, 37%, 0.05);
+}
+.visual {
+  font-weight: 800;
+  background-color: hsla(234, 85%, 45%, 0.05);
+  color: hsla(234, 85%, 45%, 0.8);
+}
+
+.data {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 1.2rem 1rem;
+}
+
+svg {
+  margin-right: 10px;
+}
+
+.summary-data p {
+  text-align: right;
+}
+
+.data span {
+  color: hsl(224, 30%, 27%);
+  font-size: 1.2rem;
+  font-weight: 900;
+  margin-left: 5rem;
+}
+
+.data p {
+  color: #94a3b8;
+  font-weight: 900;
+  font-size: 1.2rem;
+}
+
+li {
+  font-size: 1.2rem;
+}
+
+button {
+  width: 100%;
+  margin-top: 50px;
+  border: none;
+  border-radius: 25px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(224, 30%, 27%);
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+button:hover {
+  cursor: pointer;
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
